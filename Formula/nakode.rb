@@ -9,8 +9,7 @@ class Nakode < Formula
   depends_on :macos
 
   def install
-    system "cargo", "build", "--release", "--locked"
-    bin.install "target/release/nakode"
+    system "cargo", "install", *std_cargo_args
   end
 
   test do
