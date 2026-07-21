@@ -1,8 +1,8 @@
 class Nakode < Formula
   desc "Provider-neutral terminal workspace for coding agents"
   homepage "https://github.com/QuillDev/nakode"
-  url "https://github.com/QuillDev/nakode/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "e51390d803a41e2409afa7dff1ab9c2d39a649b711e66d88bee5691a4edf06cf"
+  url "https://github.com/QuillDev/nakode/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "e3ae5ce2ee234be558b20e16afa4f62ee0503a9a14c7a6c3f2f82f9e0e3ea083"
   head "https://github.com/QuillDev/nakode.git", branch: "main"
 
   depends_on "rust" => :build
