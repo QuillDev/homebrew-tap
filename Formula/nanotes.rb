@@ -1,8 +1,8 @@
 class Nanotes < Formula
   desc "Nako-styled floating Markdown scratchpad backed by local files"
   homepage "https://github.com/QuillDev/nanotes"
-  url "https://github.com/QuillDev/nanotes/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "810e4a62154a3585de213ec1cdee05cc40b3db06d1e3a603303983a2eb5e6e79"
+  url "https://github.com/QuillDev/nanotes/archive/refs/tags/v0.3.2.tar.gz"
+  sha256 "6b2587d16d993a1fd0fc41a5a83c405427917adc2716aec4ba93eb4e4f8fb5aa"
   license "MIT"
   head "https://github.com/QuillDev/nanotes.git", branch: "main"
 
