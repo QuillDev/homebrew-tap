@@ -23,3 +23,15 @@ brew install quilldev/tap/nanotes
 
 The formula builds from source (Homebrew pulls in the Rust and Node build
 tools). See the [NaNotes repo](https://github.com/QuillDev/nanotes) for details.
+
+## Nako
+
+The desktop app for Nako Portal: the portal's chat UI in its own window, with notifications.
+
+```bash
+brew install quilldev/tap/nako
+```
+
+The formula builds from source (Homebrew pulls in the Rust and Node build
+tools) and updates with `brew upgrade nako`. See the
+[Nako Portal repo](https://github.com/QuillDev/nako-portal) for details.
