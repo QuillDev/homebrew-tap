@@ -1,8 +1,8 @@
 class Nako < Formula
   desc "Desktop app for Nako Portal"
   homepage "https://github.com/QuillDev/nako-portal"
-  url "https://github.com/QuillDev/nako-portal/archive/refs/tags/desktop-v0.3.2.tar.gz"
-  sha256 "b40ecec7948ea602e2963b1ec8f7745c03c76366b8e841db0d533ef9b824ef9c"
+  url "https://github.com/QuillDev/nako-portal/archive/refs/tags/desktop-v0.3.3.tar.gz"
+  sha256 "1a929ddae57ed34af9711fcb7d7867807e05415449dbc2cf404701dee9715910"
   head "https://github.com/QuillDev/nako-portal.git", branch: "main"
 
   depends_on "node" => :build
