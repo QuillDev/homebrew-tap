@@ -1,9 +1,9 @@
 cask "nanotes" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.3.11"
-  sha256 arm:   "f821a513f6b203d2fcb5e02109557540cbde6d44a8b6c9afa1d4690274556a11",
-         intel: "06cd87b7d17368837afc73392fc38eda5c2710cc9a19b1e6ba452cd540730ee3"
+  version "0.3.12"
+  sha256 arm:   "d6987b0a8dd4c539b0d08ab06a2d9a516a3a3b4a46f11a4de5407216f40ae5a6",
+         intel: "4a165c3047f37e5c037c5ae11530d81104481ea4a006b55bc7e535c644c2b548"
 
   url "https://github.com/QuillDev/nanotes/releases/download/v#{version}/NaNotes_#{version}_#{arch}.app.tar.gz"
   name "NaNotes"
