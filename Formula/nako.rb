@@ -1,16 +1,16 @@
 class Nako < Formula
   desc "Desktop app for Nako Portal"
-  homepage "https://github.com/QuillDev/nako-portal"
-  url "https://github.com/QuillDev/nako-portal/archive/refs/tags/desktop-v0.3.17.tar.gz"
-  sha256 "2b62ddccda57b7df6ab130b7e3c23bee5a146186405a688411d8a0137064032f"
-  head "https://github.com/QuillDev/nako-portal.git", branch: "main"
+  homepage "https://github.com/QuillDev/nako"
+  url "https://github.com/QuillDev/nako/archive/refs/tags/desktop-v0.3.18.tar.gz"
+  sha256 "4cb082ea2dcaa382f0caf01944bca31a04675cb15e3a15a397a006dd2fcd0263"
+  head "https://github.com/QuillDev/nako.git", branch: "main"
 
   depends_on "node" => :build
   depends_on :macos
 
   def install
     version_number = build.head? ? "0.0.0" : version.to_s
-    cd "desktop" do
+    cd "portal/desktop" do
       # electron-builder fetches Electron itself, so the package install scripts aren't needed.
       system "npm", "ci", "--ignore-scripts"
       # The `dir` target keeps this to Nako.app (no .dmg, no Developer ID signing).
